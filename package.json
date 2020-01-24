@@ -1,0 +1,31 @@
+{
+  "name": "ayo_nonton_be",
+  "version": "1.0.0",
+  "description": "Ayo nonton back end",
+  "main": "index.js",
+  "author": "Ahmad Mirlan",
+  "license": "MIT",
+  "scripts": {
+    "start:dev": "nodemon server.js --exec babel-node --presets babel-preset-env"
+  },
+  "private": false,
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.6",
+    "babel-preset-env": "^1.7.0",
+    "bcrypt": "^3.0.7",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "joi": "^14.3.1",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "latest",
+    "mongoose": "^5.8.9",
+    "nodemon": "^2.0.2",
+    "winston": "^3.2.1"
+  },
+  "devDependencies": {
+    "babel-jest": "^25.1.0",
+    "jest": "^25.1.0"
+  }
+}
